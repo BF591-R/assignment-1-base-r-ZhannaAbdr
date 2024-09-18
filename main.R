@@ -130,7 +130,7 @@ summarize_rows <- function(x, fn, na.rm=FALSE) {
 #' @export
 #'
 #' @examples
-#' m <- matrix(1:9, nrow=3, byrow=T)
+#' m <- matrix(1:9, nrow=3, byrow=T )
 #' summarize_matrix(m)
 #'   mean stdev median min max num_lt_0 num_btw_1_and_5 num_na
 #' 1    2     1      2   1   3        0               3      0
